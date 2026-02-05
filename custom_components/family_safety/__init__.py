@@ -2,7 +2,8 @@
 
 import logging
 
-from pyfamilysafety import FamilySafety, Authenticator
+from pyfamilysafety import FamilySafety
+from pyfamilysafety.authenticator import Authenticator
 from pyfamilysafety.exceptions import HttpException, Unauthorized, AggregatorException
 
 from homeassistant.config_entries import ConfigEntry
